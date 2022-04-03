@@ -5,7 +5,7 @@
 var monthEntry = prompt("Hello, Please enter any Month:");
 
 
-const monthDays = [ '31', '30', '28, and every four years, 29']
+const monthDays = [ '31', '30', '28, and every four years, 29'];
 
 // Default Value
 check = false
@@ -17,10 +17,15 @@ while (check==false) {
 
     // If Month Entry is Accepted from above list
     if (check) {
-      console.log(`${monthEntry} is a month which has monthDays days!`);
+      console.log(`${monthEntry} is a month which has monthDayApply days!`);
       /* document.getElementById("test2").className = "test"; */
       document.getElementById("test").style.backgroundColor = "purple";
       check = true;
+
+      if (monthEntry !== February && March && April && May && June && July && August && September && October && November && December) {
+        monthDayApply = "31"
+
+      }
 
     }
 
