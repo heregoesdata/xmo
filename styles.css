@@ -1,0 +1,65 @@
+/* {
+  background-color: yellow;
+}
+*/
+
+ .test {
+  background-color: blue;
+  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.test2 {
+  background-color: green;
+}
+
+.january {
+
+}
+
+.february {
+
+}
+
+.march {
+
+}
+
+.april {
+
+}
+
+.may {
+
+}
+
+.june {
+
+}
+
+.july {
+
+}
+
+.august {
+
+}
+
+.september {
+
+}
+
+.october {
+
+}
+
+.november {
+
+}
+
+.december {
+
+}
