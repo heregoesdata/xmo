@@ -22,7 +22,7 @@ while (check==false) {
       document.getElementById("test").style.backgroundColor = "purple";
       check = true;
 
-      if (monthEntry !== February && March && April && May && June && July && August && September && October && November && December) {
+      if (monthEntry !== "February" && "March" && "April" && "May" && "June" && "July" && "August" && "September" && "October" && "November" && "December") {
         monthDayApply = "31"
 
       }
