@@ -16,9 +16,13 @@
   background-color: green;
 }
 
+.applyMonth {
+  background-image:
+}
+
 .january {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/january.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -27,7 +31,7 @@
 
 .february {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/february.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -36,7 +40,7 @@
 
 .march {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/march.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -45,7 +49,7 @@
 
 .april {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/april.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -54,7 +58,7 @@
 
 .may {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/may.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -63,7 +67,7 @@
 
 .june {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/june.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -72,7 +76,7 @@
 
 .july {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/july.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -81,7 +85,7 @@
 
 .august {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/august.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -90,7 +94,7 @@
 
 .september {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/september.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -99,7 +103,7 @@
 
 .october {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/october.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -108,7 +112,7 @@
 
 .november {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/november.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -117,9 +121,13 @@
 
 .december {
   background-color: inherit;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
+  background-image:url("image/december.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
+
+footer {
+  position: fixed;
+  }

@@ -15,23 +15,28 @@ while (check==false) {
 
     var check = (monthEntry == "January") || (monthEntry == "February") || (monthEntry == "March") || (monthEntry == "April") || (monthEntry == "May") || (monthEntry == "June") || (monthEntry == "July") || (monthEntry == "August") || (monthEntry == "September") || (monthEntry == "October") || (monthEntry == "November") || (monthEntry == "December") || (monthEntry == "january") || (monthEntry == "february") || (monthEntry == "march") || (monthEntry == "april") || (monthEntry == "may") || (monthEntry == "june") || (monthEntry == "july") || (monthEntry == "august") || (monthEntry == "september") || (monthEntry == "october") || (monthEntry == "november") || (monthEntry == "december");
 
+    if (monthEntry == "January") {
+      var monthDayApply = "31"
+
+      // To style background image accordingly - should I use document.body?
+
+      document.getElementById("january").style.backgroundImage = "url('image/january.jpg.)";
+    }
+
     // If Month Entry is Accepted from above list
     if (check) {
-      console.log(`${monthEntry} is a month which has monthDayApply days!`);
+      console.log(`${monthEntry} is a month which has monthDayApply days.`);
+      prompt(`${monthEntry} is a month which has monthDayApply days.
+        Enter a date to calculate the day of the week (DD/MM/YYYY):`);
       /* document.getElementById("test2").className = "test"; */
       document.getElementById("test").style.backgroundColor = "purple";
       check = true;
 
-      if (monthEntry !== "February" && "March" && "April" && "May" && "June" && "July" && "August" && "September" && "October" && "November" && "December") {
-        monthDayApply = "31"
-
       }
-
-    }
 
     // Month Entry is not Accepted
     else {
       console.log(`${monthEntry} is NOT an accepted syntax for month.`);
-      monthEntry = prompt("Month not accepted in this format. Please try again");
+      monthEntry = prompt("Month not accepted with this format. Please try again");
     }
 }
