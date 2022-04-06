@@ -20,16 +20,21 @@ while (check==false) {
 
       // To style background image accordingly - should I use document.body?
 
-      document.getElementById("january").style.backgroundImage = "url('image/january.jpg.)";
+      document.getElementById("divId").style.backgroundImage = "url('image/january.jpg')";
     }
 
     // If Month Entry is Accepted from above list
     if (check) {
+
+      // change the body background color to purple as a check
+      document.getElementById("all").style.backgroundColor = "purple";
+
       console.log(`${monthEntry} is a month which has monthDayApply days.`);
+
       prompt(`${monthEntry} is a month which has monthDayApply days.
-        Enter a date to calculate the day of the week (DD/MM/YYYY):`);
-      /* document.getElementById("test2").className = "test"; */
-      document.getElementById("test").style.backgroundColor = "purple";
+        Please Enter date (DD/MM/YYYY) to calculate day-of-week:`);
+
+
       check = true;
 
       }
