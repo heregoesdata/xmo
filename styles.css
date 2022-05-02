@@ -1,21 +1,20 @@
-* {
-  background-color: black;
-  color: blue;
-  text-align: center;
-  font-size: 35px;
-}
+  * {
+    background-color: black;
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+  }
 
-header {
-  background-color: green;
-  color: yellow;
-}
+  header {
+    background-color: green;
+    color: yellow;
+  }
 
-.bgImage {
-  justify-content: center;
-  background-color: blue;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  /* width: 500px;
-  height: 600px; */
-}
+  .bgImage {
+    justify-content: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 400px;
+  }

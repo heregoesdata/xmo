@@ -1,7 +1,7 @@
-  // 'XMO'  Month to Days Converter
-  // Made with vanilla javascript, by Liam C, in 2022 :)
+    // 'XMO'  Month to Days Converter
+    // Made with vanilla javascript, by Liam C, in 2022 :)
 
-  // Prompt User to Choose and enter any Month
+    // Prompt User to Choose and enter any Month
 
     var userInput = prompt("please enter a month");
 
@@ -18,7 +18,7 @@
     }
 
     else if (userInput == "February") {
-      document.getElementById("days").innerHTML = `There are 28 days in ${userInput}`;
+      document.getElementById("days").innerHTML = `There are, technically,  28.25 days in ${userInput}`;
       document.getElementById("bgImage").src = "image/february.jpg";
     }
 
@@ -73,7 +73,7 @@
     }
 
     // Generate case for all other (invalid) entries and syntaxes
-    
+
     else {
     document.getElementById("bgImage").src = "image/invalid.jpg";
     alert ("Invalid month. Please try again.");
