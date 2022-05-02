@@ -1,47 +1,77 @@
-// 'XMO'  Month to Days Converter
-// Made with vanilla jacascript, by Liam C, in 2022 :)
+  // 'XMO'  Month to Days Converter
+  // Made with vanilla jacascript, by Liam C, in 2022 :)
 
-// Prompt User to Choose and enter any Month
-var monthEntry = prompt("Hello, Please enter any Month:");
+  // Prompt User to Choose and enter any Month
+
+  // Create function to include parameters for entry syntax
+
+    var userInput = prompt("please enter a month");
+
+    userInput = userInput[0].toUpperCase() + userInput.slice(1).toLowerCase();
 
 
-const monthDays = [ '31', '30', '28, and every four years, 29'];
-
-// Default Value
-check = false
-while (check==false) {
-
-    /* Check if user input is in fridge - Repeat prompt until user guesses valid fruit - could use an array here for listing correct guesses */
-
-    var check = (monthEntry == "January") || (monthEntry == "February") || (monthEntry == "March") || (monthEntry == "April") || (monthEntry == "May") || (monthEntry == "June") || (monthEntry == "July") || (monthEntry == "August") || (monthEntry == "September") || (monthEntry == "October") || (monthEntry == "November") || (monthEntry == "December") || (monthEntry == "january") || (monthEntry == "february") || (monthEntry == "march") || (monthEntry == "april") || (monthEntry == "may") || (monthEntry == "june") || (monthEntry == "july") || (monthEntry == "august") || (monthEntry == "september") || (monthEntry == "october") || (monthEntry == "november") || (monthEntry == "december");
-
-    if (monthEntry == "January") {
-      var monthDayApply = "31"
-
-      // To style background image accordingly - should I use document.body?
-
-      document.getElementById("divId").style.backgroundImage = "url('image/january.jpg')";
+    if (userInput == "January") {
+      document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/january.jpg";
+      document.getElementByClassName("dTitle").innerHTML = "JANUARY";
     }
 
-    // If Month Entry is Accepted from above list
-    if (check) {
+    else if (userInput == "February") {
+      document.getElementById("days").innerHTML = `There are 28 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/february.jpg";
+    }
 
-      // change the body background color to purple as a check
-      document.getElementById("all").style.backgroundColor = "purple";
+    else if (userInput == "March") {
+      document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/march.jpg";
+    }
 
-      console.log(`${monthEntry} is a month which has monthDayApply days.`);
+    else if (userInput == "April") {
+      document.getElementById("days").innerHTML = `There are 30 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/april.jpg";
+    }
 
-      prompt(`${monthEntry} is a month which has monthDayApply days.
-        Please Enter date (DD/MM/YYYY) to calculate day-of-week:`);
+    else if (userInput == "May") {
+      document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/may.jpg";
+    }
 
+    else if (userInput == "June") {
+      document.getElementById("days").innerHTML = `There are 30 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/june.jpg";
+    }
 
-      check = true;
+    else if (userInput == "July") {
+      document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/july.jpg";
+    }
 
-      }
+    else if (userInput == "August") {
+      document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/august.jpg";
+    }
 
-    // Month Entry is not Accepted
+    else if (userInput == "September") {
+      document.getElementById("days").innerHTML = `There are 30 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/september.jpg";
+    }
+
+    else if (userInput == "October") {
+      document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/october.jpg";
+    }
+
+    else if (userInput == "November") {
+      document.getElementById("days").innerHTML = `There are 30 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/november.jpg";
+    }
+
+    else if (userInput == "December") {
+      document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
+      document.getElementById("bgImage").src = "image/december.jpg";
+    }
+
     else {
-      console.log(`${monthEntry} is NOT an accepted syntax for month.`);
-      monthEntry = prompt("Month not accepted with this format. Please try again");
+    document.getElementById("bgImage").src = "image/invalid.jpg";
+    alert ("Invalid month. Please try again.");
     }
-}

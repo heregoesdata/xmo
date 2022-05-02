@@ -1,139 +1,21 @@
-/* {
-  background-color: yellow;
-}
-*/
-
- .test {
-  background-color: blue;
-  background-image:url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.test2 {
-  background-color: green;
-}
-
-.applyMonth {
-  background-image:
-}
-
-.january {
-  background-color: inherit;
-  background-image:url("image/january.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.february {
-  background-color: inherit;
-  background-image:url("image/february.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.march {
-  background-color: inherit;
-  background-image:url("image/march.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.april {
-  background-color: inherit;
-  background-image:url("image/april.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.may {
-  background-color: inherit;
-  background-image:url("image/may.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.june {
-  background-color: inherit;
-  background-image:url("image/june.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.july {
-  background-color: inherit;
-  background-image:url("image/july.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.august {
-  background-color: inherit;
-  background-image:url("image/august.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.september {
-  background-color: inherit;
-  background-image:url("image/september.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.october {
-  background-color: inherit;
-  background-image:url("image/october.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.november {
-  background-color: inherit;
-  background-image:url("image/november.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.december {
-  background-color: inherit;
-  background-image:url("image/december.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
+* {
+  background-color: black;
+  color: blue;
   text-align: center;
-  }
+  font-size: 2rem;
+}
+
+header {
+  background-color: green;
+  color: yellow;
+}
+
+.bgImage {
+  justify-content: center;
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* width: 500px;
+  height: 600px; */
+}
