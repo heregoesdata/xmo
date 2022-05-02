@@ -1,14 +1,15 @@
   // 'XMO'  Month to Days Converter
-  // Made with vanilla jacascript, by Liam C, in 2022 :)
+  // Made with vanilla javascript, by Liam C, in 2022 :)
 
   // Prompt User to Choose and enter any Month
 
-  // Create function to include parameters for entry syntax
-
     var userInput = prompt("please enter a month");
+
+    // Create function to include parameters for entry syntax
 
     userInput = userInput[0].toUpperCase() + userInput.slice(1).toLowerCase();
 
+    // Calculate and display text of number of days for that month
 
     if (userInput == "January") {
       document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
@@ -71,6 +72,8 @@
       document.getElementById("bgImage").src = "image/december.jpg";
     }
 
+    // Generate case for all other (invalid) entries and syntaxes
+    
     else {
     document.getElementById("bgImage").src = "image/invalid.jpg";
     alert ("Invalid month. Please try again.");
