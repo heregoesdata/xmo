@@ -1,13 +1,25 @@
   * {
     background-color: black;
-    color: blue;
+    color: green;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  body {
+    background-color: black;
+    color: white;
     text-align: center;
     font-size: 35px;
   }
 
   header {
-    background-color: green;
+    background-color: black;
     color: yellow;
+  }
+
+  footer {
+    background-color: black;
+    color: green;
   }
 
   .bgImage {

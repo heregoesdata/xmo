@@ -78,3 +78,5 @@
     document.getElementById("bgImage").src = "image/invalid.jpg";
     alert ("Invalid month. Please try again.");
     }
+
+    <script type="text/javascript" id="WolframAlphaScripta6b81775eca5ee27b72deef7972375a" src="//www.wolframalpha.com/widget/widget.jsp?id=a6b81775eca5ee27b72deef7972375a"></script>
