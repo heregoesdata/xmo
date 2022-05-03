@@ -14,7 +14,6 @@
     if (userInput == "January") {
       document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
       document.getElementById("bgImage").src = "image/january.jpg";
-      document.getElementByClassName("dTitle").innerHTML = "JANUARY";
     }
 
     else if (userInput == "February") {

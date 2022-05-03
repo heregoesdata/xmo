@@ -1,8 +1,9 @@
   * {
+    font-family: 'Courier New', monospace;
     background-color: black;
     color: green;
     text-align: center;
-    font-size: 35px;
+    /* font-size: 35px; */
   }
 
   body {
@@ -29,4 +30,8 @@
     background-size: contain;
     background-position: center;
     height: 400px;
+  }
+
+  h6 {
+    color: purple;
   }
