@@ -3,7 +3,7 @@
 
     // Prompt User to Choose and enter any Month
 
-    var userInput = prompt("please enter a month");
+    var userInput = prompt("please enter a month name to see its duration, in days");
 
     // Create function to include parameters for entry syntax
 
@@ -75,6 +75,6 @@
     // Generate case for all other (invalid) entries and syntaxes
 
     else {
-    alert ("Invalid month. Please try again.");
+    alert ("Invalid month. Please refresh page and try again with a valid month name.");
     document.getElementById("bgImage").src = "image/invalid.jpg";
     }
