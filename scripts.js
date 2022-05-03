@@ -2,7 +2,7 @@
     // Made with vanilla javascript, by Liam C, in 2022 :)
 
     // Prompt User to Choose and enter any Month
-
+    document.getElementById("bgImage").src = "image/default.jpg";
     var userInput = prompt("Please enter a Month to see duration (days) near top of webpage.");
 
     // Create function to include parameters for entry syntax
@@ -71,9 +71,9 @@
       document.getElementById("bgImage").src = "image/december.jpg";
     }
 
-    // Generate case for all other (invalid) entries and syntaxes with custom error background img
-
+    // Generate case for all other (invalid) entries and syntaxes (with custom error background img)
+    // Would like to return to the orginal prompt in this case
     else {
-    alert ("Invalid month. Please refresh page and try again with a valid month name.");
     document.getElementById("bgImage").src = "image/invalid.jpg";
+    alert ("Invalid month. Please refresh page and try again with a valid month name.");
     }
