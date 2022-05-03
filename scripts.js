@@ -75,8 +75,6 @@
     // Generate case for all other (invalid) entries and syntaxes
 
     else {
-    document.getElementById("bgImage").src = "image/invalid.jpg";
     alert ("Invalid month. Please try again.");
+    document.getElementById("bgImage").src = "image/invalid.jpg";
     }
-
-    <script type="text/javascript" id="WolframAlphaScripta6b81775eca5ee27b72deef7972375a" src="//www.wolframalpha.com/widget/widget.jsp?id=a6b81775eca5ee27b72deef7972375a"></script>
