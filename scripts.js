@@ -3,7 +3,7 @@
 
     // Prompt User to Choose and enter any Month
 
-    var userInput = prompt("please enter a Month name to see its duration, in Days");
+    var userInput = prompt("Please enter a Month to see duration (days) near top of webpage.");
 
     // Create function to include parameters for entry syntax
 
@@ -17,7 +17,7 @@
     }
 
     else if (userInput == "February") {
-      document.getElementById("days").innerHTML = `There are, technically,  28.25 days in ${userInput}`;
+      document.getElementById("days").innerHTML = `There are, technically,  28.25 days in ${userInput} (or 28/29)`;
       document.getElementById("bgImage").src = "image/february.jpg";
     }
 
