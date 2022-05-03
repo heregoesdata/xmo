@@ -3,13 +3,13 @@
 
     // Prompt User to Choose and enter any Month
 
-    var userInput = prompt("please enter a month name to see its duration, in days");
+    var userInput = prompt("please enter a Month name to see its duration, in Days");
 
     // Create function to include parameters for entry syntax
 
     userInput = userInput[0].toUpperCase() + userInput.slice(1).toLowerCase();
 
-    // Calculate and display text of number of days for that month
+    // Calculate and display text of number of days for that month with custom calendar background art by Liam C (me)! :D
 
     if (userInput == "January") {
       document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
@@ -71,7 +71,7 @@
       document.getElementById("bgImage").src = "image/december.jpg";
     }
 
-    // Generate case for all other (invalid) entries and syntaxes
+    // Generate case for all other (invalid) entries and syntaxes with custom error background img
 
     else {
     alert ("Invalid month. Please refresh page and try again with a valid month name.");
