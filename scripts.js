@@ -9,7 +9,7 @@
 
     userInput = userInput[0].toUpperCase() + userInput.slice(1).toLowerCase();
 
-    // Calculate and display text of number of days for that month with custom calendar background art by Liam C (me)! :D
+    // Calculate and display text of number of days for that month with custom calendar background art by LC :D
 
     if (userInput == "January") {
       document.getElementById("days").innerHTML = `There are 31 days in ${userInput}`;
